@@ -5,6 +5,6 @@ import ReactDOM from 'react-dom';
 // Theme
 import './theme/init';
 
-const start = <h1 className = 'welcome'>Поехали!</h1>;
+import { Kinoafisha } from './pages/Kinoafisha.js';
 
-ReactDOM.render(start, document.getElementById('app'));
+ReactDOM.render(<Kinoafisha />, document.getElementById('app'));
